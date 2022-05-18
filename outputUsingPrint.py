@@ -1,41 +1,41 @@
-# a = 10
-# print("a value is:", a)
+a = 10
+print("a value is:", a)
 
-#---------------------
-#String Literals
-#---------------------
+# ---------------------
+# String Literals
+# ---------------------
 
 # -----------------------------------------
 # /n - string will terminate in the next line
-#------------------------------------------
-# print("Python. \n Python is the best language for programming.")
+# ------------------------------------------
+print("Python. \n Python is the best language for programming.")
 
 
 # ------------------------------------------------------
 # Flush- by default it is true and flush is used for the
-#buffer time
-#--------------------------------------------------------
+# buffer time
+# --------------------------------------------------------
 
-# import time
-# count_seconds = 3
-# for i in reversed(range(count_seconds+1)):
-# 	if i > 0:
-# 		print(i, end='>>>',flush=True)
-# 		time.sleep(2)
+import time
+count_seconds = 3
+for i in reversed(range(count_seconds+1)):
+	if i > 0:
+		print(i, end='>>>',flush=True)
+		time.sleep(2)
 
-# 	else:
-# 		print('Start')
+	else:
+		print('Start')
 
-#--------------------------------------------------------------------------------
-#Separator - used for formatting multiple statements in a single print() function
-#--------------------------------------------------------------------------------
-# from sys import stdin
+# --------------------------------------------------------------------------------
+# Separator - used for formatting multiple statements in a single print() function
+# --------------------------------------------------------------------------------
+from sys import stdin
 
-# a=10
-# b='hello'
-# c='jaya'
+a=10
+b='hello'
+c='jaya'
 
-# print("hi my age is",a,".",b,"how are you?",c,".","i am good")
+print("hi my age is",a,".",b,"how are you?",c,".","i am good")
 
 
 
